@@ -14,6 +14,7 @@ These increased greenhouse gas concentrations amplify the natural greenhouse eff
 This practicum project will apply unsupervised learning techniques to explore and analyze greenhouse gas emissions data, aiming to reveal hidden patterns and insights without predefined labels. Furthermore, the analysis will utilize Principal Component Analysis (PCA) to simplify complex, multi-dimensional emissions data into easily interpretable visual forms. Additionally, the project aims to identify countries or sectors that exhibit unusual emission patterns. Ultimately, the goal is to develop a reliable and accurate prediction model to forecast future trends in greenhouse gas emissions. Additionally, the project will clearly illustrate emission trends across various countries through data visualization, highlighting distinct clusters of countries sharing similar emission profiles, economic activities, or sustainability practices. 
 
 ### Project Timeline
+The project timeline is divided into eight weekly phases, providing a clear roadmap from initial setup to final presentation. 
 ![project timeline](https://github.com/user-attachments/assets/99f33e2f-33cc-4a88-9a92-c702e4b174ea)
 
 
