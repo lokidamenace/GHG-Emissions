@@ -18,7 +18,7 @@ The project timeline is divided into eight weekly phases, providing a roadmap fr
 ![project timeline](https://github.com/user-attachments/assets/8902dc38-044f-4022-8c99-ba5543f86c0d)
 
 
-### Data Overview
+### Dataset Overview
 
 
 ### Exploratory Data Analysis
