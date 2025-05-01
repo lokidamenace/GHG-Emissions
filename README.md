@@ -1,7 +1,7 @@
 # Future Footprints: Predicting Trends in Greenhouse Gas Emissions
 ![ppt title page](https://github.com/user-attachments/assets/1fb4b6b5-5e25-44a2-9dd6-282ea94a4a6a)
 
-Climate change is a pressing and fundamental crisis, primarily driven by human emissions of CO₂ and other greenhouse gases. In this practicum project, I aim to dig deeper into this issue by explicitly identifying the key factors contributing to increased emissions and forecasting how emission rates are likely to evolve in the coming years. Additionally, since effectively reducing emissions requires an understanding of their sources, this project will focus on determining the primary contributors to greenhouse gas emissions and predicting future emission trends.
+Climate change is a pressing and fundamental crisis, primarily driven by human emissions of CO₂ and other greenhouse gases. In this practicum project, I aim to dig deeper into this issue by explicitly identifying the key factors contributing to increased emissions and forecasting how emission rates will likely to evolve in the coming years. Additionally, since effectively reducing emissions requires an understanding of their sources, this project will focus on determining the primary contributors to greenhouse gas emissions and predicting future emission trends.
 
 ### Background
 Greenhouse gases (GHGs), including carbon dioxide (CO₂), methane (CH₄), nitrous oxide (N₂O), water vapor, and synthetic fluorinated gases, play a critical role in Earth's climate system. These gases naturally trap some of the sun's heat, helping to maintain a stable climate that is suitable for life. However, human activities have significantly increased their concentrations in the atmosphere. 
