@@ -31,7 +31,7 @@ The project timeline is divided into eight weekly phases, providing a clear road
 ### Anomaly Detection
 
 
-### Building the Model
+### Models Comparison
 
 
 ### Finding the Results
