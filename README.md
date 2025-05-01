@@ -34,7 +34,7 @@ The project timeline is divided into eight weekly phases, providing a clear road
 ### Models Comparison
 
 
-### Finding the Results
+### Finding & Results
 
 
 ### Challenges & Setbacks
