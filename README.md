@@ -15,7 +15,8 @@ This practicum project will apply unsupervised learning techniques to explore an
 
 ### Project Timeline
 The project timeline is divided into eight weekly phases, providing a clear roadmap from initial setup to final presentation. 
-![project timeline](https://github.com/user-attachments/assets/99f33e2f-33cc-4a88-9a92-c702e4b174ea)
+![project timeline](https://github.com/user-attachments/assets/8902dc38-044f-4022-8c99-ba5543f86c0d)
+
 
 
 ### Exploratory Data Analysis
