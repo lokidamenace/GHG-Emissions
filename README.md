@@ -62,28 +62,36 @@ This smaller heatmap illustrates relationships among greenhouse gas emissions, c
 ![correlationwithfinancialmetrics](https://github.com/user-attachments/assets/855547e8-c46b-4f64-8c2a-8c674952c68c)
 
 ### Clustering Analysis & Dimensionality Reduction (PCA)
-Clustering analysis has been performed to find groups of countries or companies based on their emissions. Appropriate features were selected because they directly relate to greenhouse gas emissions and help explain emission patterns. Using categorical codes that don’t have a clear order or meaningful distance would add noise to the model. The PCA projection reduces the 10-feature dataset into two principal components (PC1 and PC2), capturing the most variance for clear visualization. The K-Means algorithm grouped the data into four distinct clusters, each represented by a different color. This clustering helps reveal patterns among entities with similar emission and economic profiles.
+The Elbow Method was applied to choose the optimal number of clusters (k=9). Clustering analysis has been performed to find groups of countries or companies based on their emissions. Appropriate features were selected because they directly relate to greenhouse gas emissions and help explain emission patterns. Using categorical codes that don’t have a clear order or meaningful distance would add noise to the model. The PCA projection reduces the 10-feature dataset into two principal components (PC1 and PC2), capturing the most variance for clear visualization. 
+![kmeansclustering9_model 1](https://github.com/user-attachments/assets/fefaafaa-4cd3-4c78-aa8e-78f23f455208)
 
-![kmeansclustering](https://github.com/user-attachments/assets/b298c0d0-232b-4c94-b7cf-d7e0fcc595f5)
+Although the elbow method indicates that the dataset has nine optimal clusters, we will use the silhouette score to verify this number. Based on the result, 2 clusters and 11 clusters performed the best. I will rerun the model with k=2 and k=11 values and gather the predictions. And to confirm, I will also visualize them in a PCA plot.
+![kmeansclustering2_model 2](https://github.com/user-attachments/assets/741329df-c8e3-48fd-b8ae-9359be4cfeef)  ![kmeansclustering11_model 3](https://github.com/user-attachments/assets/b5b7c12b-765e-4df5-8a32-1f82d9737cae)
 
 ### Findings & Results
-- #### Cluster 0 (Green)  
-  The points in this cluster are widely dispersed along PC1, indicating a greater variability in the features represented by PC1, which likely pertains to emissions or financial scale. This cluster could 
-  represent large economies or high emitters with diverse profiles.
+At this point, the silhouette score and the PCA plot of the model both show that the clustering of 11 has better results. A scatter plot will be used to visualize the results of a K-Means clustering analysis, specifically showing how data points are clustered based on their Sector ID after applying PCA (dimensionality reduction).
+![clusteringwithsectorid](https://github.com/user-attachments/assets/bd7c68d6-5fef-4e58-8da8-48d4b7022b3d)
 
-- #### Cluster 1 (Orange)  
-  This cluster is tightly packed and situated in the lower-left quadrant. It indicates a group of observations with similar, potentially lower emissions and a smaller financial scale. This cluster likely 
-  reflects smaller economies or more uniform reporting entities.
+- #### Interpretation of K-Means clustering result colored by Sector ID   
+  Colors in the plot denote different Sector IDs, effectively illustrating how entities from various sectors are distributed across clusters. Every cluster has a diverse mix of sectors, rather than one   
+  cluster being dominated by a single industry. This diversity implies that the clustering is influenced by a combination of factors, such as market capitalization, revenue, Scope 3 emissions, GDP, and 
+  population, rather than just industry type.
 
-- #### Cluster 2 (Blue)
-  Observations in this compact cluster are located in the upper center of the plot. They may exhibit moderate emissions and economic attributes, suggesting balanced economies with fewer extreme outliers.
+- #### Overlapping Sectors 
+  Some sectors appear across multiple clusters, showing that emissions behavior varies even within a single industry. For example, entities within the same sector may differ in their emissions behavior depending 
+  on their geographical and economic context. 
 
-- #### Cluster 3 (Pink) 
-  This is the smallest cluster and is positioned higher on PC2. It represents anomalous or highly distinct observations, possibly entities with unique emissions profiles, either extremely high or low in specific 
-  dimensions.
+- #### Outliers
+  A few points are positioned far from the center of cluster formations, suggesting they are outliers or unique profiles. These might be countries or companies with extreme Scope 3 emissions, exceptionally high 
+  or low market cap, or unique sector behavior.
+
+- #### Conclusion 
+  In conclusion, this diversity implies that clustering is influenced by a combination of factors rather than industry type alone. The plot reveals that complex interplays of sectoral, economic, and national 
+  characteristics shape emission behavior. Additional analysis is required to gain more insight. Ultimately, the unsupervised learning approach effectively illustrates multi-dimensional patterns beyond simple 
+  categorical grouping.
 
 ### Future Steps
-In the context of model comparison, we can specifically examine Gaussian mixture models, which represent a compelling option worth exploring. In addition, I would like to examine the use of pipelines and the integration of feature selection and model estimation processes to prevent data leakage.
+It would be valuable to identify which sectors dominate each cluster by cross-tabulating Cluster versus Sector ID, gaining insights into which industries contribute the most to each emission behavior group. This can support targeted policy-making and sustainability strategies tailored to the emission profiles of different clusters.
 
 ### References
 Global Monitoring Laboratory. (2025). Trends in Atmospheric Carbon Dioxide. NOAA. Retrieved from https://gml.noaa.gov/ccgg/trends/
