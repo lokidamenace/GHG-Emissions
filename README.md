@@ -31,7 +31,7 @@ The project timeline is divided into eight weekly phases, providing a roadmap fr
 EDA is conducted to investigate and understand the relationships among greenhouse gas emissions, country-specific statistics, and financial metrics. It examines data patterns, trends, and correlations to know how these factors interact.
 
 #### Emission Trends Over Time
-This chart illustrates the average annual emissions. The sharp decrease from 2020 to 2021 was primarily due to the global lockdowns resulting from the COVID-19 pandemic. Since then, the upward pattern could reflect economic recovery, increased reporting transparency, or growth in high-emission sectors.
+This chart illustrates the average annual emissions. The sharp decrease from 2020 to 2021 was primarily due to the global lockdowns resulting from the COVID-19 pandemic. Since then, the upward pattern could reflect economic recovery or growth in high-emission sectors.
 
 ![linechart](https://github.com/user-attachments/assets/5aa3e822-45f9-4ecd-b5b3-f8991cc3d269)
 
