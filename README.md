@@ -7,6 +7,7 @@ Climate change is a pressing and fundamental crisis, primarily driven by human e
 Greenhouse gases (GHGs), including carbon dioxide (CO₂), methane (CH₄), nitrous oxide (N₂O), water vapor, and synthetic fluorinated gases, play a critical role in Earth's climate system. These gases naturally trap some of the sun's heat, helping maintain a stable climate suitable for life. However, human activities have significantly increased their concentrations in the atmosphere. 
 
 For instance, the National Oceanic and Atmospheric Administration (NOAA) Global Monitoring Laboratory reported that atmospheric CO₂ levels reached approximately 430 parts per million (ppm) in early 2025, a significant rise from pre-industrial levels of around 280 ppm. Similarly, methane concentrations have increased dramatically, with current atmospheric levels above 1,900 parts per billion (ppb), more than double the pre-industrial levels.
+![NOAA graph](https://github.com/user-attachments/assets/fe859d11-a998-4e75-92c1-b569865a76c8)
 
 These increased greenhouse gas concentrations amplify the natural greenhouse effect, resulting in global warming and significant shifts in climate patterns. The consequences include extreme weather events, rising sea levels, disruptions to ecosystems, and adverse health effects. Addressing the increase in greenhouse gases is crucial for environmental sustainability, economic stability, and human health. 
 
@@ -56,7 +57,7 @@ The heatmap identifies smaller sections of strong correlations between financial
 ![heatmap_allvariables](https://github.com/user-attachments/assets/6a3c06c2-92d9-4ca8-b7ab-a4705dafddb3)
 
 #### Correlation Matrix (Financial Metrics & Emissions)
-This smaller heatmap illustrates relationships among greenhouse gas emissions, country statistics, and financial metrics. Strong positive correlations among financial metrics indicate expected financial interdependencies. Emissions have notably weak correlations with most financial metrics, suggesting factors beyond direct financial size or profitability alone might influence emissions. Additionally, country-level metrics strongly correlate with emissions metrics.
+This smaller heatmap illustrates relationships among greenhouse gas emissions, country statistics, and financial metrics. Financial metrics have strong positive correlations and are strongly interrelated. Emissions (Scope_3_emissions_amount) have notably weak correlations with most financial metrics, suggesting emissions might be influenced by other factors. The country_ghg_avg variable strongly correlates with both country_population_avg and country_gdp_avg. That could indicate some relationship that could be explained with further analysis.
 
 ![correlationwithfinancialmetrics](https://github.com/user-attachments/assets/855547e8-c46b-4f64-8c2a-8c674952c68c)
 
