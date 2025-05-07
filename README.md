@@ -57,7 +57,7 @@ The heatmap identifies smaller sections of strong correlations between financial
 ![heatmap_allvariables](https://github.com/user-attachments/assets/6a3c06c2-92d9-4ca8-b7ab-a4705dafddb3)
 
 #### Correlation Matrix (Financial Metrics & Emissions)
-This smaller heatmap illustrates relationships among greenhouse gas emissions, country statistics, and financial metrics. Financial metrics have strong positive correlations and are strongly interrelated. Emissions (Scope_3_emissions_amount) have notably weak correlations with most financial metrics, suggesting emissions might be influenced by other factors. The country_ghg_avg variable strongly correlates with both country_population_avg and country_gdp_avg. That could indicate some relationship that could be explained with further analysis.
+This smaller heatmap illustrates relationships among greenhouse gas emissions, country statistics, and financial metrics. Financial metrics have strong positive correlations and are strongly interrelated. Emissions (Scope_3_emissions_amount) have notably weak correlations with most financial metrics, suggesting other factors might influence emissions. The country_ghg_avg variable strongly correlates with both country_population_avg and country_gdp_avg. That could indicate some relationship that could be explained with further analysis.
 
 ![correlationwithfinancialmetrics](https://github.com/user-attachments/assets/855547e8-c46b-4f64-8c2a-8c674952c68c)
 
@@ -69,7 +69,7 @@ Although the elbow method indicates that the dataset has nine optimal clusters, 
 ![kmeansclustering2_model 2](https://github.com/user-attachments/assets/741329df-c8e3-48fd-b8ae-9359be4cfeef)  ![kmeansclustering11_model 3](https://github.com/user-attachments/assets/b5b7c12b-765e-4df5-8a32-1f82d9737cae)
 
 ### Findings & Results
-At this point, the silhouette score and the PCA plot of the model both show that the clustering of 11 has better results. A scatter plot will be used to visualize the results of a K-Means clustering analysis, specifically showing how data points are clustered based on their Sector ID after applying PCA (dimensionality reduction).
+At this point, the silhouette score and the PCA plot of the model both show that the clustering of 11 (k=11) yields the best results. A scatter plot will be used to visualize the results of a K-Means clustering analysis, specifically showing how data points are clustered based on their Sector ID after applying PCA (dimensionality reduction).
 ![clusteringwithsectorid](https://github.com/user-attachments/assets/bd7c68d6-5fef-4e58-8da8-48d4b7022b3d)
 
 - #### Interpretation of K-Means clustering result colored by Sector ID   
